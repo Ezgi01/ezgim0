@@ -28,13 +28,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "10555778"))
+API_ID = int(getenv("API_ID", "15295601"))
 
-API_HASH = getenv("API_HASH", "f3c3b702ebc181753d4b559b9b91d3f9")
+API_HASH = getenv("API_HASH", "684d641dd29964f1a0588c4b90adbe76")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5446861802:AAHj34aD5vzpMbNCRT1ZoKoxbr_VZn30-0s")
+BOT_TOKEN = getenv("BOT_TOKEN", "5508660508:AAF-yWsR-5pk9jmm6BLTwRXhsfA-UqlfIVQ")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 
@@ -58,17 +58,17 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001461002395"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001608295909"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "YOUTUBE PLAYER PRO")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🎙MuBaReK💞RaDYoM🎙")
 
 # Your User ID.
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "5608007149 5578818615 5107386124").split())
+    map(int, getenv("OWNER_ID", "1420274537 1434526952").split())
 
 )  # Input type must be interger
 
@@ -86,7 +86,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/melih022/mehmet",
+    "https://github.com/melih022/mubarekrad",
 
 )
 
@@ -106,7 +106,7 @@ SUPPORT_CHANNEL = getenv(
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/YouTubeVCSupport"
+    "SUPPORT_GROUP", "https://t.me/MissMuzikDestek"
 
 )  # Example:- https://t.me/YukkiSupport
 
@@ -140,7 +140,7 @@ AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
 
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "True")
 
 # Time sleep duration For Youtube Downloader
 
@@ -198,13 +198,13 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "BABBPa8pT1nr3pjRD8wuBjahoh6TKsei60FLgFjJjEp4FxwqYMhFZIkQTSLie7lS277mvKJqhoVn7abeKlyQvKOokuSKjncS4SEHSbr_ahCZslkLAPWl_okNj2BOR7XPO-4izET1TfFY2qsUgOB_OiniCIC4--Rc1tizGvDp2xWm0I8pelAmtbY6E_pnXSObYEhbHXaFmuDH29hyRKOoaqSrnDZiEJTUDsUYFfa_HatZEpz5cGH-O0xfm7yvi6u-koE0eAaaD3m5MO5PWTD1DTEJy3vDkujJhGUeNHepWBSUIy0-rREk7Ty-SxYP6XU-74vOFpZJ_AfLASoD-yLLESJcAAAAAUCOu-YA")
+STRING1 = getenv("STRING_SESSION", "BQAbOR6r-W_7LMfxuiXx7aR6KiWmQSQn6ybZAn0h2Dj-er0FgbDlB3G_Mnvd_m1KvxVqQ2ZG8ZDkI3n4BORnECZtBeK_EKXGWAm3KGy34cTKw8G5odIRZ-x0dnZbXEIVWlt20fOQm4K-Uk6c5e9AqQ1wAHNiu4VdcfTgUEIG2QatikQpZF9JOhy7BMQBE_9zdPuVUPlA3Y5Te5MYpRJZf-RNe1fCHtDUFjjGx0StBEF6gBrV4nP7CBlfKkyge8b5PE6bekVR35TqkjaPFrpVcrlMdqlGMSZd_HIQSfKSQoaSuCPC2_nH50pFkROF8E2AklWi9zW6UC2igNi_6rRLG0eiAAAAAHMTYEkA")
 
-STRING2 = getenv("STRING_SESSION2", "BQBg42uJ3_c0vuWi7vGxXLEXCVnQN0I8ZF2dBbrhSrLsXmGmEKAD7kPsZNt8a2zJ-N1pGaiI5LK9LJ59ajONf3eA5S12aeK_SAmnR7oFwAlReiGQy2A7rZUPMyShQQqHUOfi7MswdDOWvnkFDUoLDd6OWNGDVDTkhCeRMsMN-nWw-QNBIoHI9ZY1vLriJo4N8OkPaAIE0SRU-311UpiiLURQdY42H9bE5u1teSt1LolEz5W6DFX6NKShFW9dSNvkt-2Y7x6xprhwknVggOxL0dedm7LcGW-N0VcGJvPJHdiCbTxHLbYzmC4NGvS3o4aGfgBFpJhs-QRv5sKX2FDCH3mSAAAAATqTgQcA")
+STRING2 = getenv("STRING_SESSION2", None)
 
-STRING3 = getenv("STRING_SESSION3", "BQCyGhHE-vcFdaykp10lqrGg_Y1AqtY8KfTYkSMNxbX8dgCRJQBUgUjwK2ch-1Xpss6GvIZOZLUcRo6FH1sa6OafvOrenQGjwbkphIpIaiZtOaWX8BlAOLjKyUapWy3BxVWwyy6jj77_J84aJYczp7Ye7zap413Nw2Ezn7Aa7DFp01RpnZedKXkhdVt2pt-Ep-B3b624n_-uEKJk1hVD8TdL8OiiPQOVgg0gD20ru44MyvfTtLW0yR9w0gECfJE8J2HDczvDLIO7k6ZWSwrlBVsKrn23-74o_7YL9wcTgSTdhlFDUxM5MomBLMolad07uEm9SwpwX_tp_XJd_h2xYnDvAAAAATFMlk8A")
+STRING3 = getenv("STRING_SESSION3", None)
 
-STRING4 = getenv("STRING_SESSION4", "BABB_pINnUcXweMYLesiBrO7EwVxHHNqq-EihcfMKGr2IPk2jgPURUVWfcE_ex8sN_uWMikYlKA71xn3PoiLkIyprWgaA8hDu2Q6OgUz1ZrFeb9f5mLJy8kGmlQJD0mHEY-aTV1y-Kbgzpie2XPIpG0wnzgCSakit0jCaM94UyWadj8TMrPFEUfF0QwMrvZLi-dslfqkRDKp-1MHZH4xOh0N9fkc8cnqsR1EE75L7396ki8jlnAhwn9mB9joAEbN3BDrMJrE9ltoZbdENXY6dC7S6dy1FMuf6MAm_ov3VGz7INvnLcb9Aj4tDwOGjr911jmZ79GxqcoNzwPSjuVWyArfAAAAAUydNOsA")
+STRING4 = getenv("STRING_SESSION4", None)
 
 STRING5 = getenv("STRING_SESSION5", None)
 
