@@ -106,7 +106,7 @@ SUPPORT_CHANNEL = getenv(
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/MissMuzikDestek"
+    "SUPPORT_GROUP", "https://t.me/YouTubeVCDestek/30"
 
 )  # Example:- https://t.me/YukkiSupport
 
