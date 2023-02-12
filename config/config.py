@@ -28,9 +28,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "28535285"))
+API_ID = int(getenv("API_ID", "28327652"))
 
-API_HASH = getenv("API_HASH", "3001d00171c7915eab7a69aaaf2a41d0")
+API_HASH = getenv("API_HASH", "41c13236b5d19e83b84f737e89538076")
 
 ## Get it from @Botfather in Telegram.
 
@@ -62,7 +62,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001812648831"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MuBaReK RaDYoM")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MuBaReK_RaDYoM_BoT")
 
 # Your User ID.
 
@@ -198,7 +198,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "AgCuJq7713obC2t7vzzkuoJrk9edCWx8lx6h2gY2lpV3yYiS-6Z4axy9XuDSIXnj-VYxkQQWC5lUiT0gnTMQrHwoQgX-uKEeKpEkxnju8MVlgBfBBHQ5AFuBvljJcFpPL4FOcjY0O7JRA8h8Faa9_iScQx45lRm59kFhCo8jhfSiNQdJpnp0tm2_7tKq9-EduFJphMMXdAGn4v8B9o9YXL2i3nKtwKcpUHz172lxbJ6zHv8uNowrqTWKgKJJRJQ6giEIj6RXnyxDzBtMJpEblwnTzASVyAtOYG_jl0_Yl17RCXW2mPvgohJxuAIX-Svnn1NyqzaGT9y0QKOI08bE2nTrAAAAATm2DG0A")
+STRING1 = getenv("STRING_SESSION", "BACp6t-bk31H0h5QLfZnwqTB2JdgzqQypd2zb8jcLdrPGRVzvgJS-Px9_Fdfedj1h-bRkLw8u3NWMA2M-gw_zTmSyfrjh6X3BOrqPZF17bqY3Jl4i-R72D7ASOx1P3jRzvWMn6uuX2zNmmrAtlzPeSY-1OnD4GMlrKpHxZWE3vmJe9gFeXa6LaNhRl_KF7DiZp5V9Q0QsP7NIa8Jz2Ws17DdRf2So_VVsiAfJJfFzMNi0Kf2aD3j7uK1sSgbel0vO9SntbH6wNBTSJMQ8Hb_jINMvzWCmhYjZ6rJHFbSsJZqFdL1qlNmOkhxMxZiLoyMmbDzep2dTu2UOZGI_s2t_T3bAAAAATKcBlQA")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
