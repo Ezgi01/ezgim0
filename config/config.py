@@ -34,7 +34,7 @@ API_HASH = getenv("API_HASH", "ea66430fe1cdae0ba42138fce234222b")
 
 ## Get it from @Botfather in Telegram.
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6220412274:AAFlNMAqRXFLtONpmhygZHbTiyRYzJMfo5s")
+BOT_TOKEN = getenv("BOT_TOKEN", "5686962878:AAHvuQwbWzl42Vpj9WmA-e7Ic-xBc9mLYPI")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 
@@ -58,11 +58,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001590051552"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001928094102"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "EzGi_BoT")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "EzGiM_BoT")
 
 # Your User ID.
 
@@ -86,7 +86,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/Ezgi01/ezgim",
+    "https://github.com/Ezgi01/ezgim0",
 
 )
 
