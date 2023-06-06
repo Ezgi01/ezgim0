@@ -18,9 +18,9 @@ from ..logging import LOGGER
 
 class YukkiBot(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Bot Başlatılıyor")
+        LOGGER(__name__).info(f"Haydi Bismillah - Şimdi Başlıyoruz")
         super().__init__(
-            "YukkiMusicBot",
+            "EzgiMüzikBot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
@@ -33,21 +33,25 @@ class YukkiBot(Client):
         self.id = get_me.id
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, "Bot Aktif"
+                config.LOG_GROUP_ID, "Haydi Hayırlı Olsun Botumuz Aktif :)"
             )
         except:
             LOGGER(__name__).error(
-                "Bot, günlük Grubuna erişemedi. Botunuzu günlük kanalınıza eklediğinizden ve yönetici olarak terfi ettiğinizden emin olun.!"
+                "DİKKAT..!! Müzik Botumuz Günlük (LOG) Grubuna erişemedi. Botu günlük kanalınıza eklediğinizden ve yönetici olarak terfi ettiğinizden emin olun.!"
             )
             sys.exit()
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
         if a.status != "administrator":
             LOGGER(__name__).error(
-                "Lütfen Bot'u Log Groubunda Yönetici Yapın"
+                "Lütfen Müzik Botunu Günlük (LOG) Grubunda Yönetici Yapın"
             )
             sys.exit()
         if get_me.last_name:
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-        LOGGER(__name__).info(f"MusicBot olarak başladı {self.name}")
+        LOGGER(__name__).info(f"EzgiMusicBot olarak başladı {self.name}")
+        
+    /////////////////////////////////////////
+    EZGİ - BOTUN BAŞLAMA AYARLARI İLE ALAKALI 
+    ////////////////////////////////////////
